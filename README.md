@@ -16,3 +16,6 @@ eclipse Jee工程文件。
 #### hadoop_homework_1.ipynb
 使用jupyter notebook创建。
 用于爬取网页文本并进行数据清洗与分词，最后保存到saved_html文件夹中。
+
+## 使用顺序
+运行ipynb文件爬取文本，接着建立倒排索引，最后启动searchEngene。
