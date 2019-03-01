@@ -5,9 +5,10 @@
 #### InvertedIndex文件夹
 eclipse Jee工程文件。用于计算倒排索引，并存入HBase。
 此处的需要填写自己的master节点ip。src文件夹内代码中搜索your_ip_address并替换为自己的master节点ip即可。
+记得修改saved_html文件夹路径。
 
-#### saved_html文件夹
-用于保存爬取的网页文本，内容已经过处理。
+#### saved_html文件夹（需要自己创建）
+用于保存爬取的网页文本，内容已经过处理。具体路径可以在hadoop_homework_1.ipynb中修改。
 
 #### searchEngine文件夹
 eclipse Jee工程文件。
